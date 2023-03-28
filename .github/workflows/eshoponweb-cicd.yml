@@ -6,10 +6,10 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-az400-eshoponweb-vb
-  LOCATION: AustraliaEast
+  LOCATION: 
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: 725d846f-031b-4069-9f31-50414f130222
-  WEBAPP-NAME: az400-webapp-vb
+  SUBSCRIPTION-ID: 
+  WEBAPP-NAME: az400-webapp
 
 
 jobs:
